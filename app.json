@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "smartcure-vdr",
+    "slug": "smartcure-vdr",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
