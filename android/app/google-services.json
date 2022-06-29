@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "655740824195",
+    "project_id": "smartcure-app",
+    "storage_bucket": "smartcure-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655740824195:android:88c1d44d1aab33ae1189b6",
+        "android_client_info": {
+          "package_name": "com.smartcurevdr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655740824195-m8qh8jdome58ig4gl8icu6rc8uf26fpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartcurevdr",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "655740824195-8kma1rnu7d4pruvlndsq7eiuu6k4cth6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRdfl-nE4cQkobIK91pCuFATh8uGnow6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655740824195-8kma1rnu7d4pruvlndsq7eiuu6k4cth6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

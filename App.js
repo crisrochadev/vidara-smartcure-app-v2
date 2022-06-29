@@ -1,21 +1,27 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import MainStack from "./src/stacks/MainStack";
+import { DefaultTheme, Provider as PaperProvider } from "react-native-paper";
 
-export default function App() {
+const theme = {
+  ...DefaultTheme,
+  roundness: 5,
+  colors: {
+    background: "#FFFBDB",
+    primary: "#BDB2FF",
+    accent: "#FFC6FF",
+    danger: "#F30A5E",
+    sucess: "#A0C4FF",
+    surface :"#3B5998",
+    onSurface :"#FA3913"
+  }
+};
+export default () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <PaperProvider theme={theme}>
+        <MainStack />
+      </PaperProvider>
+    </NavigationContainer>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+};
